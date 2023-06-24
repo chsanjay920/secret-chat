@@ -1,0 +1,18 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "this is anonymous chat server ",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js",
+    "dev": "nodemon ./app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ram and sanjay",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "nodemon": "^2.0.19",
+    "socket.io": "^4.5.1"
+  }
+}
